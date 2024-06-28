@@ -21,6 +21,11 @@ python convert_image.py --input_image "path_to_input_image" --output_image "wher
  --output_tiled_image is the path to the output seamless image tiled (for visualization)
 
  example: python convert_image.py   --input_image "in_dir/sa_261427_4_Score_5059_TileSize39_Texture.jpg" --output_image "out_seamless.jpg"  --output_tiled_imag  "out_seamless_tiled.jpg"
+
+ 
+![](sa_266495_6_Score_5792_TileSize39_Texture.jpg)
+Figure 2) Left:  original image.   Right: converted image.
+
  
 # run on folder
 python convert_folder.py --input_dir "folder containing images to be converted" --out_dir "folder where the converted seamless images will be saved"  
@@ -47,7 +52,4 @@ The more traditional method for making a texture image seamless and tileable usi
 
 # license 
 Code is under cc0 but images in in_dir and display taken from the segment anything repository.
-
-![](sa_266495_6_Score_5792_TileSize39_Texture.jpg)
-Figure 2) Left:  original image.   Right: converted image.
 
