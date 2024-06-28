@@ -40,7 +40,8 @@ The size of the region on the image border that will be used for blending in per
 
 
 --blurring 
-Size of Gaussian blur used to make merging softer and more gradual. Use odd numbers only larger numbers meaning higher blurryness. (default: 3) 
+
+How smooth/blurry the transition should be, Size of Gaussian blur used to make merging softer and more gradual. Use odd numbers only larger numbers meaning higher blurryness. (default: 3) 
 
 --maintain_size  
 default=False  maintain the image's original size, if this is true resize  the image at the end of the process to match its original size
