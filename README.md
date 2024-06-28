@@ -12,15 +12,19 @@ pip install opencv-python
 
 # run on image
 python convert_image.py --input_image "path_to_input_image" --output_image "where_to_save_output_image" --output_tiled_image "where_output_tiled_image_will_be_saved"
- 
- 
+
+
  --input_image is the path to the image you want to convert  
  --output_image is the path  to the output seamless image
  --output_tiled_image is the path to the output seamless image tiled (for visualization)
+
+ example: python convert_image.py   --input_image "in_dir/sa_261427_4_Score_5059_TileSize39_Texture.jpg" --output_image "out_seamless.jpg"  --output_tiled_imag  "out_seamless_tiled.jpg"
  
 # run on folder
 python convert_folder.py --input_dir "folder containing images to be converted" --out_dir "folder where the converted seamless images will be saved"  
 
+
+example: python convert_folder.py  --input_dir "in_dir/" --out_dir  "out_seamless/"  --gap 60
 
 # important parameters
 
