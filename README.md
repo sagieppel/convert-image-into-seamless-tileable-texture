@@ -29,9 +29,11 @@ python convert_folder.py --input_dir "folder containing images to be converted" 
 The size of the region on the image border that will be used for blending in percentage or pixels (default: 0.12/60). If this number is larger then one uses it as a number of pixels. If it's smaller than one use it as a fraction of the image size, the larger this will be the smoother the blending but it will also crop the image, making it smaller. 
 
 
---blurring  Size of Gaussian blur used to make merging softer and more gradual. Use odd numbers only larger numbers meaning higher blurryness. (default: 3) 
+--blurring 
+Size of Gaussian blur used to make merging softer and more gradual. Use odd numbers only larger numbers meaning higher blurryness. (default: 3) 
 
---maintain_size  default=True  maintain the image's original size, if this is true resize  the image at the end of the process to match its original size
+--maintain_size  
+default=False  maintain the image's original size, if this is true resize  the image at the end of the process to match its original size
 
 
 # Alternative resources
