@@ -50,6 +50,8 @@ default=False  maintain the image's original size, if this is true resize  the i
 # Alternative resources
 
 The more traditional method for making a texture image seamless and tileable using average-based blending [https://github.com/rtmigo/img2texture](https://github.com/rtmigo/img2texture) 
+
+
 Using stable diffusion inpainting option to modify boundary regions [https://github.com/sagieppel/transform-image-into-seamless-tileable-texture-using-stable-diffusion-inpainting](https://github.com/sagieppel/transform-image-into-seamless-tileable-texture-using-stable-diffusion-inpainting)
 
 # license 
