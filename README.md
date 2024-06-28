@@ -5,7 +5,7 @@ This is taking the boundaries of the image and changing them so that opposite si
 ![](sa_266035_15_Score_5229_TileSize39_Texture.jpg)
 ![](sa_266472_5_Score_5119_TileSize39_Texture.jpg)
 ![](sa_266495_6_Score_5792_TileSize39_Texture.jpg)
-Figure 1)  Left stitching before modification, right tiling after modification
+Figure 1)  Left: tiling before modification.   Right: tiling after modification
 
 # setting
 install opencv:
