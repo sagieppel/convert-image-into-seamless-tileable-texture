@@ -34,7 +34,7 @@ def parse_arguments():
     parser.add_argument('--display',  type=bool, default=False,
                         help="Display step by step for debugging (default: False)")
 
-    parser.add_argument('--maintain_size', type=bool, default=True,
+    parser.add_argument('--maintain_size', type=bool, default=False,
                         help="maintain the image original size, if this is true resize  the image in the end of the process to match its original size")
 
     args = parser.parse_args()
