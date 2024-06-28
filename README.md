@@ -4,7 +4,7 @@ This is taking the boundaries of the image and changing them so that opposite si
 
 ![](sa_266035_15_Score_5229_TileSize39_Texture.jpg)
 ![](sa_266472_5_Score_5119_TileSize39_Texture.jpg)
-Figure 1) Left: tiling original image.   Right: tiling after running the script.
+Figure 1) Left:  original image.   Right: converted image.
 
 # setting
 install opencv:
@@ -43,5 +43,5 @@ The more traditional method for making a texture image seamless and tileable usi
 Code is under cc0 but images in in_dir and display taken from the segment anything repository.
 
 ![](sa_266495_6_Score_5792_TileSize39_Texture.jpg)
-Figure 2) Left: tiling original image.   Right: tiling after running the script.
+Figure 2) Left:  original image.   Right: converted image.
 
