@@ -8,6 +8,8 @@ Figure 1) Left:  original image.   Right: converted image.
 
 # setting
 install opencv:
+
+
 pip install opencv-python
 
 # run on image
