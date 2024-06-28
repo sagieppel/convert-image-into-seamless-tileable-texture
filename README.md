@@ -4,7 +4,7 @@ This is taking the boundaries of the image and changing them so that opposite si
 
 ![](sa_266035_15_Score_5229_TileSize39_Texture.jpg)
 ![](sa_266472_5_Score_5119_TileSize39_Texture.jpg)
-Figure 1) Left:  original image.   Right: converted image.
+Figure 1) Left:  original image tiled.   Right: converted image tiled.
 
 # setting
 install opencv:
@@ -50,6 +50,7 @@ default=False  maintain the image's original size, if this is true resize  the i
 # Alternative resources
 
 The more traditional method for making a texture image seamless and tileable using average-based blending [https://github.com/rtmigo/img2texture](https://github.com/rtmigo/img2texture) 
+Using stable diffusion inpainting option to modify boundary regions [https://github.com/sagieppel/transform-image-into-seamless-tileable-texture-using-stable-diffusion-inpainting](https://github.com/sagieppel/transform-image-into-seamless-tileable-texture-using-stable-diffusion-inpainting)
 
 # license 
 Code is under cc0 but images in in_dir and display taken from the segment anything repository.
