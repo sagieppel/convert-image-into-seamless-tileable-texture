@@ -143,7 +143,7 @@ if __name__ == "__main__":
     final_im =  cv2.rotate(final_im, cv2.ROTATE_90_CLOCKWISE) # rotate back
 # save
     if args.maintain_size: cv2.resize(final_im,(im.shape[1],im.shape[0]))
-    cv2.imwrite(args.output_tiled_image,final_im)
+    cv2.imwrite(args.output_image,final_im)
 # create grid
     grid_image = np.concatenate([final_im,final_im],0)
     grid_image = np.concatenate([grid_image, grid_image], 1)
